@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(https://picsum.photos/2880/1920?image=737);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(18, 18, 66, 0.507);
+    margin: 0;
+}
+#container{
+    background-color: #234165a6;
+    width: 380px;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+}
+h1{
+    color: #fff;
+    margin-bottom: 0;
+}
+#inputs{
+    height: 90px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#usern{
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    height: 35px;
+    width: 100%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    font-size: small;
+    font-weight: bold;
+}
+#pass{
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    height: 35px;
+    width: 100%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    font-size: small;
+    font-weight: bold;
+}
+
+a{
+    border-radius: 20px;
+    height: 45px;
+    width: 300px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+#logn{
+    background: #0172ff;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
+#forg-pass{
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    margin-top: 10px;
+}
